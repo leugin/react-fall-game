@@ -17,7 +17,6 @@ class Room extends Component {
     constructor(props, context) {
         super(props, context);
         this.selectRoom = this.selectRoom.bind(this);
-        console.log(this.props)
 
     }
 

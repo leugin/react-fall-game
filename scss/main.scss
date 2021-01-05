@@ -9,8 +9,8 @@ body{
 .playground{
   position: fixed;
   top: 64px;
-  left: 239px;
-  width: calc(100vw - 239px);
+  left: 15vw;
+  width: calc(100vw - 15vw);
   height: calc(100vh - 64px);
   .top , .bottom, .left, .right{
     position: absolute;
@@ -73,6 +73,18 @@ body{
     width: 20vh;
     height: 100%;
     background-color: brown;
+    position: relative;
+    .deck{
+      width: 80px;
+      height: 50px;
+      border: solid 1px black;
+      transform: rotateZ(45deg);
+    }
+    .info{
+      position: absolute;
+      width: 0;
+      height: 0;
+    }
   }
   .avatar-invert{
     height: 20vh;
@@ -86,7 +98,7 @@ body{
     position: fixed;
     top: 0;
     background-color: blue;
-    width: calc(100% - 239px );
+    width: calc(100% - 15vw );
     color: white;
   }
 
@@ -96,7 +108,7 @@ header{
 }
 .MuiDrawer-paper{
 
-  width: 240px;
+  width: 15vw;
 
 }
 
